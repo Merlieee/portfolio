@@ -23,7 +23,7 @@ function Card({ p }) {
       ref={ref}
       href={p.href}
       target="_blank"
-      rel="noreferrer"
+      rel="noreferrer nofollow"
       className="card reveal group"
     >
       <div className="flex h-36 items-center justify-center">

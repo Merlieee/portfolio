@@ -11,7 +11,7 @@ export default function Contact() {
       <h2 className="label mb-5">{t('contact.label')}</h2>
       <div className="flex items-center gap-6">
         <p className="flex-1 text-[var(--gray)] leading-[1.62]">{t('contact.text')}</p>
-        <a href={`mailto:${EMAIL}`} className="pill shrink-0">
+        <a href={`mailto:${EMAIL}`} rel="nofollow" className="pill shrink-0">
           {t('contact.cta')}
         </a>
       </div>

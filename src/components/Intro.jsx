@@ -26,7 +26,11 @@ export default function Intro() {
         <p>{t('intro.bio1pre')}</p>
         <p className="whitespace-pre-line">
           {t('intro.bio2pre')}
-          <a href={`mailto:${EMAIL}`} className="ulink text-[var(--ink)]">
+          <a
+            href={`mailto:${EMAIL}`}
+            rel="nofollow"
+            className="ulink text-[var(--gray)] transition-colors hover:text-black"
+          >
             {t('intro.bio2email')}
           </a>
           {t('intro.bio2end')}

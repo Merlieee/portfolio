@@ -5,6 +5,7 @@ import Intro from './components/Intro'
 import Projects from './components/Projects'
 import About from './components/About'
 import Contact from './components/Contact'
+import Socials from './components/Socials'
 
 // Dev-only visual feedback toolbar. The DEV guard lets Vite drop the dynamic
 // import (and its chunk) entirely from production builds.
@@ -21,6 +22,7 @@ export default function App() {
         <Projects />
         <About />
         <Contact />
+        <Socials />
       </main>
       {Agentation && (
         <Suspense fallback={null}>
