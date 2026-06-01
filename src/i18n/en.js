@@ -35,7 +35,7 @@ export default {
   },
   contact: {
     label: 'Contact',
-    text: "If you're looking to collaborate on a project, or simply want to talk — I'd love to hear what you're building.",
+    text: "If you're looking to collaborate on a project, or simply\nwant to talk — I'd love to hear what you're building.",
     cta: 'Get in touch',
   },
   footer: {

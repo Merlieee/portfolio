@@ -14,7 +14,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="wrap flex items-center justify-between pb-10">
+    <footer className="wrap flex items-center justify-between pb-28">
       <Socials />
       <button
         onClick={toggleLang}

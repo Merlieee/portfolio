@@ -35,7 +35,7 @@ export default {
   },
   contact: {
     label: 'Kontakt',
-    text: 'Jeśli szukasz kogoś do współpracy przy projekcie lub chcesz po prostu porozmawiać — chętnie poznam Twój pomysł.',
+    text: 'Jeśli szukasz kogoś do współpracy przy projekcie lub chcesz po prostu\nporozmawiać — chętnie poznam Twój pomysł.',
     cta: 'Napisz do mnie',
   },
   footer: {
