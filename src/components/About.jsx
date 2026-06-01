@@ -11,7 +11,7 @@ export default function About() {
       <h2 className="label mb-5">{t('about.label')}</h2>
       <p className="text-[var(--gray)] leading-[1.62]">{t('about.text')}</p>
 
-      <div className="mt-12">
+      <div className="mt-6">
         {Array.isArray(items) &&
           items.map((f, i) => (
             <div key={i} className="row">

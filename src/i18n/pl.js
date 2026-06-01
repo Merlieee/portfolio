@@ -7,7 +7,7 @@ export default {
     role: 'Design Engineer',
     // bio rendered with inline links in Intro.jsx
     bio1pre: 'Współpracuję z firmami, tworząc szybkie, dopracowane i przemyślane produkty webowe.',
-    bio2pre: 'Zależy mi na klarowności i jakości wykonania — chcę, aby interfejsy były wyciszone\ni naturalne w obsłudze. Możesz się ze mną skontaktować przez ',
+    bio2pre: 'Zależy mi na przejrzystości i dopracowaniu — chcę, aby interfejsy były wyciszone\ni naturalne w obsłudze. Możesz się ze mną skontaktować przez ',
     bio2email: 'email',
     bio2end: '.',
   },
