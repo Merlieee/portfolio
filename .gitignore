@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# os files
+.DS_Store
+
+# logs
+*.log
+npm-debug.log*
+
+# editor
+.vscode/
+.idea/
+
+# loose reference / scratch images (not used by the app)
+ref_*.png
+cb_*.png
+*-preview.png
+portfolio-*.png
