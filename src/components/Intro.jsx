@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useFadeIn } from '../hooks/useFadeIn'
-import { EMAIL } from './Nav'
+import { EMAIL } from './Footer'
 
 export default function Intro() {
   const { t } = useTranslation()

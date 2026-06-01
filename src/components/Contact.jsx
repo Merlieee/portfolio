@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
 import { useFadeIn } from '../hooks/useFadeIn'
-import { EMAIL } from './Nav'
+import { EMAIL } from './Footer'
 
 export default function Contact() {
   const { t } = useTranslation()
-  const ref = useFadeIn()
+  const ref = useFadeIn(360)
 
   return (
     <section id="contact" ref={ref} className="reveal mt-24">

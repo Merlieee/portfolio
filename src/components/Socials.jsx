@@ -21,7 +21,7 @@ const LINKS = [
 
 export default function Socials() {
   return (
-    <div className="mt-12 flex items-center gap-5">
+    <div className="flex items-center gap-5">
       {LINKS.map((l) => (
         <a
           key={l.label}

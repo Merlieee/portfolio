@@ -1,8 +1,9 @@
 import { useTranslation } from 'react-i18next'
+import Socials from './Socials'
 
 const EMAIL = 'mmwojcik.477@gmail.com'
 
-export default function Nav() {
+export default function Footer() {
   const { t, i18n } = useTranslation()
 
   function toggleLang() {
@@ -13,7 +14,8 @@ export default function Nav() {
   }
 
   return (
-    <div className="wrap flex justify-end pt-6">
+    <footer className="wrap flex items-center justify-between pb-10">
+      <Socials />
       <button
         onClick={toggleLang}
         className="text-[14px] text-[var(--muted)] hover:text-[var(--ink)] transition-colors cursor-pointer"
@@ -21,7 +23,7 @@ export default function Nav() {
       >
         {t('nav.langSwitch')}
       </button>
-    </div>
+    </footer>
   )
 }
 

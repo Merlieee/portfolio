@@ -16,15 +16,13 @@ const PROJECTS = [
 
 function Card({ p }) {
   const { t } = useTranslation()
-  const ref = useFadeIn()
 
   return (
     <a
-      ref={ref}
       href={p.href}
       target="_blank"
       rel="noreferrer nofollow"
-      className="card reveal group"
+      className="card group"
     >
       <div className="flex h-36 items-center justify-center">
         <img
@@ -45,9 +43,10 @@ function Card({ p }) {
 
 export default function Projects() {
   const { t } = useTranslation()
+  const ref = useFadeIn(120)
 
   return (
-    <section className="mt-24">
+    <section ref={ref} className="reveal mt-24">
       <h2 className="label mb-5">{t('work.label')}</h2>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         {PROJECTS.map((p) => (

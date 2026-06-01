@@ -3,7 +3,7 @@ import { useFadeIn } from '../hooks/useFadeIn'
 
 export default function About() {
   const { t } = useTranslation()
-  const ref = useFadeIn()
+  const ref = useFadeIn(240)
   const items = t('focus.items', { returnObjects: true })
 
   return (
