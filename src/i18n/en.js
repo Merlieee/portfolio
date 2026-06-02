@@ -7,7 +7,7 @@ export default {
     role: 'Design Engineer',
     // bio rendered with inline links in Intro.jsx
     bio1pre: "I'm a design engineer based in Poland, working with companies to shape fast, polished, and considered web products.",
-    bio2pre: 'I care deeply about clarity and detail, and I like to make interfaces feel quiet\nand effortless. You can reach me via ',
+    bio2pre: 'I care about clarity and detail, and I like to make interfaces feel quiet [[d]]and effortless. You can reach me via ',
     bio2email: 'email',
     bio2end: '.',
   },

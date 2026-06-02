@@ -6,8 +6,8 @@ export default {
     name: 'Michał Wójcik',
     role: 'Design Engineer',
     // bio rendered with inline links in Intro.jsx
-    bio1pre: 'Współpracuję z firmami, tworząc szybkie, dopracowane i przemyślane produkty webowe.',
-    bio2pre: 'Zależy mi na przejrzystości i dopracowaniu — chcę, aby interfejsy były wyciszone\ni naturalne w obsłudze. Możesz się ze mną skontaktować przez ',
+    bio1pre: 'Współpracuję z firmami, tworząc szybkie, dopracowane [[m]]i przemyślane produkty webowe.',
+    bio2pre: 'Zależy mi na przejrzystości i dopracowaniu — chcę, [[m]]aby interfejsy były wyciszone [[d]]i naturalne w obsłudze. [[m]]Możesz się ze mną skontaktować poprzez ',
     bio2email: 'email',
     bio2end: '.',
   },
@@ -24,7 +24,7 @@ export default {
   },
   about: {
     label: 'O mnie',
-    text: 'Buduję interfejsy zaczynając od typografii — czytelne, szybkie i wyciszone, gdzie klarowność znaczy więcej niż dekoracja.',
+    text: 'Buduję interfejsy zaczynając od typografii — czytelne, szybkie i wyciszone, gdzie klarowność znaczy więcej [[m]]niż dekoracja.',
   },
   focus: {
     label: 'Specjalizacja',

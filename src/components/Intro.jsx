@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useFadeIn } from '../hooks/useFadeIn'
+import { withBreaks } from '../utils/withBreaks'
 import { EMAIL } from './Footer'
 
 export default function Intro() {
@@ -23,9 +24,9 @@ export default function Intro() {
 
       {/* bio */}
       <div className="mt-7 flex flex-col gap-4 text-[var(--gray)] leading-[1.62]">
-        <p>{t('intro.bio1pre')}</p>
-        <p className="whitespace-pre-line">
-          {t('intro.bio2pre')}
+        <p>{withBreaks(t('intro.bio1pre'))}</p>
+        <p>
+          {withBreaks(t('intro.bio2pre'))}
           <a
             href={`mailto:${EMAIL}`}
             rel="nofollow"

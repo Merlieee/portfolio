@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { useFadeIn } from '../hooks/useFadeIn'
+import { withBreaks } from '../utils/withBreaks'
 
 export default function About() {
   const { t } = useTranslation()
@@ -9,7 +10,7 @@ export default function About() {
   return (
     <section id="about" ref={ref} className="reveal mt-24">
       <h2 className="label mb-5">{t('about.label')}</h2>
-      <p className="text-[var(--gray)] leading-[1.62]">{t('about.text')}</p>
+      <p className="text-[var(--gray)] leading-[1.62]">{withBreaks(t('about.text'))}</p>
 
       <div className="mt-6">
         {Array.isArray(items) &&
